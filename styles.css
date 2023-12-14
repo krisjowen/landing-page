@@ -16,7 +16,6 @@
 .logo {
     font-size: 24px;
     color: #F9FAF8;
-    margin-left: 100px;
 }
 
 .links, .standard-text, .image-description, .footer, .welcome-image {
@@ -28,7 +27,6 @@
     font-size: 48px;
     font-weight: bolder;
     color: #F9FaF8;
-    margin-left: 100px;
 }
 
 .button {
@@ -59,6 +57,9 @@
 
 .header {
     display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .footer {
@@ -73,17 +74,19 @@ li {
 .links {
     display: flex;
     justify-content: space-between;
-    margin-right: 100px;
 }
 
 .hero {
     display: flex;
     justify-content: space-around;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .welcome-image {
     background-color: grey;
     width: 200px;
     height: 200px;
-    margin-right: 100px;
+
 }
+
