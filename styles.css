@@ -1,5 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 * {
-    font-family: 'Roboto';
+    font-family: Roboto;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
 }
 
 .header, .footer, .hero {
@@ -9,6 +16,7 @@
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    margin-left: 100px;
 }
 
 .links, .standard-text, .image-description, .footer, .welcome-image {
@@ -20,6 +28,7 @@
     font-size: 48px;
     font-weight: bolder;
     color: #F9FaF8;
+    margin-left: 100px;
 }
 
 .button {
@@ -48,3 +57,33 @@
     color: #1F2937;
 }
 
+.header {
+    display: flex;
+}
+
+.footer {
+    margin-top: auto;
+}
+
+li {
+    list-style: none;
+
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+}
+
+.welcome-image {
+    background-color: grey;
+    width: 200px;
+    height: 200px;
+    margin-right: 100px;
+}
