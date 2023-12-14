@@ -33,6 +33,9 @@
     background-color: #3882F6;
     font-size: 18px;
     color: #e5e7eb;
+    border-radius: 10px;
+    width: 120px;
+    padding: 7px;
 }
 
 .quote {
@@ -57,6 +60,7 @@
 
 .header {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     padding-left: 100px;
     padding-right: 100px;
@@ -83,38 +87,64 @@ li {
 .hero {
     display: flex;
     justify-content: space-around;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding:100px;
+    align-items: center;
 }
 
 .hero-content {
     flex-direction: column;
+    width: 450px;
+}
+
+.standard-text {
+    margin-bottom: 12px;
 }
 
 .welcome-image {
     background-color: grey;
-    width: 200px;
-    height: 200px;
-
+    width: 350px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 50px;
 }
 
 .container {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 100px;
 }
 
-
+.information {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
 
 .image-text {
     border: 3px solid blue;
     border-radius: 10px;
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.image-description {
+    max-width: 200px;
 }
 
 .quote {
     padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.author {
+    align-items: flex-end;
 }
 
 .cta {
